@@ -1,0 +1,18 @@
+<dependencies>
+  <compile
+      roots="H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release">
+    <dependency
+        name="H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release,__local_aars__:H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,:OVRPlugin:@aar">
+    <dependency
+        name="H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name=":OVRPlugin:@aar"/>
+  </package>
+</dependencies>

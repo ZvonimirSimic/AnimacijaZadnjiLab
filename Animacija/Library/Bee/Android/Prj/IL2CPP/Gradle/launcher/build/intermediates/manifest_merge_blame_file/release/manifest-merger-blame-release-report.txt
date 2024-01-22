@@ -1,0 +1,193 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.DubinaBoje"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.82" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="34" />
+10-->H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-67
+19-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-64
+20
+21    <uses-feature android:glEsVersion="0x00030000" />
+21-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-54
+21-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:19-51
+22    <uses-feature
+22-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-16:36
+23        android:name="android.hardware.touchscreen"
+23-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-52
+24        android:required="false" />
+24-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-33
+25    <uses-feature
+25-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:5-19:36
+26        android:name="android.hardware.touchscreen.multitouch"
+26-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-63
+27        android:required="false" />
+27-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-33
+28    <uses-feature
+28-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-22:36
+29        android:name="android.hardware.touchscreen.multitouch.distinct"
+29-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-72
+30        android:required="false" />
+30-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-33
+31    <uses-feature
+31-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:5-26:31
+32        android:name="android.hardware.vr.headtracking"
+32-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-56
+33        android:required="true"
+33-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-32
+34        android:version="1" />
+34-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-28
+35
+36    <application
+36-->H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+37        android:allowBackup="false"
+37-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:9-36
+38        android:extractNativeLibs="true"
+38-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:9-41
+39        android:icon="@mipmap/app_icon"
+39-->H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+40        android:label="@string/app_name" >
+40-->H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+41        <meta-data
+41-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:9-35:33
+42            android:name="unity.splash-mode"
+42-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:13-45
+43            android:value="0" />
+43-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-30
+44        <meta-data
+44-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:9-38:36
+45            android:name="unity.splash-enable"
+45-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-47
+46            android:value="True" />
+46-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-33
+47        <meta-data
+47-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:9-41:36
+48            android:name="unity.launch-fullscreen"
+48-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:13-51
+49            android:value="True" />
+49-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-33
+50        <meta-data
+50-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:9-44:37
+51            android:name="unity.allow-resizable-window"
+51-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-56
+52            android:value="False" />
+52-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-34
+53        <meta-data
+53-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:9-47:50
+54            android:name="notch.config"
+54-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-40
+55            android:value="portrait|landscape" />
+55-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-47
+56        <meta-data
+56-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:9-50:36
+57            android:name="unity.auto-report-fully-drawn"
+57-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-57
+58            android:value="true" />
+58-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-33
+59
+60        <activity
+60-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:9-78:20
+61            android:name="com.unity3d.player.UnityPlayerActivity"
+61-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:13-66
+62            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+62-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:13-114
+63            android:exported="true"
+63-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:13-36
+64            android:hardwareAccelerated="false"
+64-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:13-48
+65            android:launchMode="singleTask"
+65-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:13-44
+66            android:resizeableActivity="false"
+66-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:13-47
+67            android:screenOrientation="landscape"
+67-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:13-50
+68            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+68-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:13-77
+69            <intent-filter>
+69-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:13-67:29
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:17-77
+70-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:27-74
+71
+72                <action android:name="android.intent.action.MAIN" />
+72-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:17-69
+72-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:25-66
+73
+74                <category android:name="com.oculus.intent.category.VR" />
+74-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:66:17-74
+74-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:66:27-71
+75            </intent-filter>
+76
+77            <meta-data
+77-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:69:13-71:40
+78                android:name="unityplayer.UnityActivity"
+78-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:70:17-57
+79                android:value="true" />
+79-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:71:17-37
+80            <meta-data
+80-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:72:13-74:40
+81                android:name="notch_support"
+81-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:73:17-45
+82                android:value="true" />
+82-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:74:17-37
+83            <meta-data
+83-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:75:13-77:40
+84                android:name="com.oculus.vr.focusaware"
+84-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:76:17-56
+85                android:value="true" />
+85-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:77:17-37
+86        </activity>
+87
+88        <meta-data
+88-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:80:9-82:39
+89            android:name="com.samsung.android.vr.application.mode"
+89-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:81:13-67
+90            android:value="vr_only" />
+90-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:82:13-36
+91        <meta-data
+91-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:83:9-85:37
+92            android:name="com.unity.xr.oculus.LowOverheadMode"
+92-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:84:13-63
+93            android:value="false" />
+93-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:85:13-34
+94        <meta-data
+94-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:86:9-88:37
+95            android:name="com.unity.xr.oculus.LateLatching"
+95-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:87:13-60
+96            android:value="false" />
+96-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:88:13-34
+97        <meta-data
+97-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:89:9-91:37
+98            android:name="com.unity.xr.oculus.LateLatchingDebug"
+98-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:90:13-65
+99            android:value="false" />
+99-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:91:13-34
+100        <meta-data
+100-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:92:9-94:52
+101            android:name="com.oculus.supportedDevices"
+101-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:93:13-55
+102            android:value="quest|quest2|cambria" />
+102-->[:unityLibrary] H:\AnimacijaZadnjiLab\Animacija\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:94:13-49
+103    </application>
+104
+105</manifest>
